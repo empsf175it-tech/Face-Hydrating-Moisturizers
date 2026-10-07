@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AQUAVEIL — Face Hydrating Moisturizers, Routine Builder &amp; Auto-Reorder</title>
+<meta name="description" content="Personalised face hydrating moisturizers with a routine builder, dermatologist reviews, a hydration calculator and smart auto-reorder. Build your skin's perfect hydration ritual.">
+<meta name="theme-color" content="#04282c">
+<link rel="canonical" href="https://www.example.com/">
+<meta property="og:title" content="AQUAVEIL — Hydration Atelier">
+<meta property="og:description" content="Routine builder, dermatologist reviews, hydration calculator and automated re-ordering for face moisturizers.">
+<meta property="og:image" content="assets/images/hero-hydration-trio.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%239ff0ee'/%3E%3Cstop offset='1' stop-color='%23c9a15a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='%2304282c'/%3E%3Cpath d='M32 10C32 10 16 31 16 41a16 16 0 0 0 32 0C48 31 32 10 32 10Z' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"AQUAVEIL","description":"Face hydrating moisturizers with routine builder and auto-reorder.","url":"https://www.example.com/","image":"assets/images/hero-hydration-trio.webp"}
+</script>
+</head>
+<body>
+
+<!-- SVG ICON SPRITE -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.5S5 10.2 5 15a7 7 0 0 0 14 0c0-4.8-7-12.5-7-12.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 15a3 3 0 0 0 3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 4.4 3 7.6 7.5 9 4.5-1.4 7.5-4.6 7.5-9V6L12 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m8.8 12 2.3 2.3 4.2-4.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 19c3-4 6-6.500 9-8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.800 3h10.400A2 2 0 0 0 19 18l-5-9V3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.500 15h9" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.500v2.500M12 19v2.500M2.500 12H5M19 12h2.500M5.300 5.300l1.800 1.800M16.900 16.900l1.800 1.800M5.300 18.700l1.800-1.800M16.900 7.100l1.800-1.800" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.500A8 8 0 0 1 9.500 4 8 8 0 1 0 20 14.500Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 11V9a3 3 0 0 1 3-3h11l-3-3M20 13v2a3 3 0 0 1-3 3H6l3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8ZM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 21c1-4.500 4-6 8-6s7 1.500 8 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.700 5.600 6.100.8-4.500 4.200 1.100 6.100L12 16.800 6.600 19.700l1.100-6.100L3.200 9.400l6.100-.8L12 3Z" fill="currentColor"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h11v10H2zM13 9h4l3 3v4h-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7" cy="17.500" r="1.800" fill="var(--ink)" stroke="currentColor" stroke-width="1.600"/><circle cx="16.500" cy="17.500" r="1.800" fill="var(--ink)" stroke="currentColor" stroke-width="1.600"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.800-8-10.500A4.500 4.500 0 0 1 12 7a4.500 4.500 0 0 1 8 2.500C20 15.200 12 20 12 20Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.500 14 -1.500 7 5-2.500 5 2.500-1.500-7M9.500 9l2 2 3-3.500" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.300 7-11.500a7 7 0 0 0-14 0C5 14.700 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.500" r="2.500" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="1.8"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-x-social" viewBox="0 0 24 24"><path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.4-8.533M13.6 10.667L20 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.37z" fill="none" stroke="currentColor" stroke-width="1.8"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor"/></symbol>
+</svg>
+
+<div class="cursor-glow" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="AQUAVEIL home">
+    <span class="brand-mark"><svg><use href="#i-drop"/></svg></span>
+    <span class="brand-name">AQUAVEIL<small>Hydration Atelier</small></span>
+  </a>
+  <nav class="nav-links" id="navLinks" aria-label="Main">
+    <div class="nav-menu-items">
+      <a href="#routine">Routine Builder</a>
+      <a href="#shop">Shop</a>
+      <a href="#calculator">Hydration Lab</a>
+      <a href="#dermatologists">Dermatologists</a>
+      <a href="#reorder">Auto-Reorder</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-menu-actions">
+      <button class="btn-icon" id="accountBtn" aria-label="Account"><svg><use href="#i-user"/></svg><span id="accountLabel">Sign in</span></button>
+      <button class="btn-icon cart-btn" id="cartBtn" aria-label="Open bag"><svg><use href="#i-bag"/></svg><span class="cart-btn-label">Bag</span><span class="count" id="cartCount">0</span></button>
+    </div>
+  </nav>
+  <div class="nav-actions">
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="droplets" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">Face Hydrating Moisturizers · Derm-Reviewed</p>
+      <h1 class="reveal">Skin that <em>drinks</em> light,<br>not just water.</h1>
+      <p class="lead reveal">Six clinically-minded moisturizers, a routine built around your skin, and a ritual that reorders itself before the jar runs dry.</p>
+      <div class="hero-cta reveal">
+        <a href="#routine" class="btn btn-primary">Build my routine <svg><use href="#i-arrow"/></svg></a>
+        <a href="#calculator" class="btn btn-ghost">Test my hydration</a>
+      </div>
+      <ul class="hero-stats reveal">
+        <li><b data-count="48">0</b><span>hr hydration*</span></li>
+        <li><b data-count="96">0</b><span>% saw plumper skin*</span></li>
+        <li><b data-count="15">0</b><span>% off on auto-reorder</span></li>
+      </ul>
+      <p class="fine reveal">*Illustrative figures for demo layout — replace with your own tested claims.</p>
+    </div>
+    <div class="hero-visual tilt" data-tilt data-tilt-max="9">
+      <img src="assets/images/hero-hydration-trio.webp" alt="AQUAVEIL Dewdrop Gel Cream, Veil Hyaluron Serum-Cream and Cloud Barrier Cream resting on rippling water" width="1600" height="1100" fetchpriority="high">
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- MARQUEE RUNNING BANNER -->
+<section class="marquee-banner" aria-label="Key ingredients">
+  <div class="marquee-content">
+    <div class="marquee-group">
+      <span>Hyaluronic Acid</span><i>✦</i>
+      <span>Ceramide NP</span><i>✦</i>
+      <span>Squalane</span><i>✦</i>
+      <span>Niacinamide</span><i>✦</i>
+      <span>Panthenol</span><i>✦</i>
+      <span>Fragrance-Free</span><i>✦</i>
+      <span>Non-Comedogenic</span><i>✦</i>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span>Hyaluronic Acid</span><i>✦</i>
+      <span>Ceramide NP</span><i>✦</i>
+      <span>Squalane</span><i>✦</i>
+      <span>Niacinamide</span><i>✦</i>
+      <span>Panthenol</span><i>✦</i>
+      <span>Fragrance-Free</span><i>✦</i>
+      <span>Non-Comedogenic</span><i>✦</i>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span>Hyaluronic Acid</span><i>✦</i>
+      <span>Ceramide NP</span><i>✦</i>
+      <span>Squalane</span><i>✦</i>
+      <span>Niacinamide</span><i>✦</i>
+      <span>Panthenol</span><i>✦</i>
+      <span>Fragrance-Free</span><i>✦</i>
+      <span>Non-Comedogenic</span><i>✦</i>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span>Hyaluronic Acid</span><i>✦</i>
+      <span>Ceramide NP</span><i>✦</i>
+      <span>Squalane</span><i>✦</i>
+      <span>Niacinamide</span><i>✦</i>
+      <span>Panthenol</span><i>✦</i>
+      <span>Fragrance-Free</span><i>✦</i>
+      <span>Non-Comedogenic</span><i>✦</i>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST CARDS -->
+<section class="section trust">
+  <div class="wrap">
+    <div class="grid g4">
+      <article class="card tilt reveal" data-tilt><span class="ico"><svg><use href="#i-flask"/></svg></span><h3>Barrier-first formulas</h3><p>Humectants, lipids and occlusives layered the way skin actually holds water.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico"><svg><use href="#i-shield"/></svg></span><h3>Derm-reviewed</h3><p>Every formula is reviewed by our independent dermatology panel.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico"><svg><use href="#i-leaf"/></svg></span><h3>Clean &amp; fragrance-free</h3><p>No synthetic fragrance, no drying alcohols, no fillers. Ever.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico"><svg><use href="#i-repeat"/></svg></span><h3>Never run out</h3><p>Smart auto-reorder that adapts to how fast you actually use each jar.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ROUTINE BUILDER -->
+<section class="section" id="routine">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">01 · Routine Builder</p><h2>Your ritual, <em>composed in 30 seconds</em></h2><p>Tell us about your skin. We'll sequence the right moisturizers for morning and night.</p></header>
+    <div class="builder">
+      <form class="builder-form glass reveal" id="routineForm" onsubmit="return false">
+        <fieldset><legend>Skin type</legend>
+          <div class="chips" data-name="skin">
+            <button type="button" class="chip" data-v="dry">Dry</button>
+            <button type="button" class="chip" data-v="oily">Oily</button>
+            <button type="button" class="chip active" data-v="combo">Combination</button>
+            <button type="button" class="chip" data-v="sensitive">Sensitive</button>
+          </div>
+        </fieldset>
+        <fieldset><legend>Main concern</legend>
+          <div class="chips" data-name="concern">
+            <button type="button" class="chip active" data-v="dehydration">Dehydration</button>
+            <button type="button" class="chip" data-v="barrier">Weak barrier</button>
+            <button type="button" class="chip" data-v="aging">Fine lines</button>
+            <button type="button" class="chip" data-v="sun">Sun &amp; city</button>
+          </div>
+        </fieldset>
+        <fieldset><legend>Routine length</legend>
+          <div class="chips" data-name="time">
+            <button type="button" class="chip" data-v="am">Morning</button>
+            <button type="button" class="chip" data-v="pm">Night</button>
+            <button type="button" class="chip active" data-v="both">Both</button>
+          </div>
+        </fieldset>
+        <p class="hint">Updates live as you choose.</p>
+      </form>
+      <div class="builder-result glass reveal" id="routineResult" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section class="section dark" id="shop">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">02 · The Collection</p><h2>Six moisturizers. <em>One philosophy.</em></h2><p>Hover or touch a card — they respond to you.</p></header>
+    <div class="tabs reveal" id="shopTabs" role="tablist">
+      <button class="tab active" data-f="all" role="tab">All</button>
+      <button class="tab" data-f="dry" role="tab">Dry</button>
+      <button class="tab" data-f="oily" role="tab">Oily</button>
+      <button class="tab" data-f="combo" role="tab">Combination</button>
+      <button class="tab" data-f="sensitive" role="tab">Sensitive</button>
+    </div>
+    <div class="grid g3" id="productGrid"></div>
+  </div>
+</section>
+
+<!-- HYDRATION CALCULATOR -->
+<section class="section" id="calculator">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">03 · Hydration Lab</p><h2>How hydrated is your skin, <em>really?</em></h2><p>A quick lifestyle-based estimate — not a medical diagnosis.</p></header>
+    <div class="calc">
+      <form class="glass calc-form reveal" id="calcForm" onsubmit="return false">
+        <label>Water per day <output id="o-water">6 glasses</output>
+          <input type="range" id="c-water" min="1" max="14" value="6"></label>
+        <label>Sleep per night <output id="o-sleep">7 h</output>
+          <input type="range" id="c-sleep" min="3" max="11" value="7"></label>
+        <label>Hours in AC / heating / screens <output id="o-ac">6 h</output>
+          <input type="range" id="c-ac" min="0" max="16" value="6"></label>
+        <div class="row2">
+          <label>Climate
+            <select id="c-climate"><option value="humid">Humid</option><option value="temperate" selected>Temperate</option><option value="dry">Dry / desert</option><option value="cold">Cold / windy</option></select></label>
+          <label>Skin type
+            <select id="c-skin"><option value="dry">Dry</option><option value="oily">Oily</option><option value="combo" selected>Combination</option><option value="sensitive">Sensitive</option></select></label>
+        </div>
+        <label>Age range
+          <select id="c-age"><option value="20">Under 30</option><option value="35" selected>30 – 45</option><option value="50">46 – 60</option><option value="65">60+</option></select></label>
+        <label class="check"><input type="checkbox" id="c-cleanse"> I use a foaming / strong cleanser daily</label>
+      </form>
+      <div class="glass calc-result reveal" id="calcResult" aria-live="polite">
+        <div class="gauge tilt" data-tilt data-tilt-max="6">
+          <svg viewBox="0 0 200 200"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ff0ee"/><stop offset="1" stop-color="#c9a15a"/></linearGradient></defs>
+            <circle cx="100" cy="100" r="86" class="g-track"/><circle cx="100" cy="100" r="86" class="g-val" id="gVal" stroke="url(#gg)"/></svg>
+          <div class="g-center"><b id="gScore">0</b><span id="gLabel">Hydration</span></div>
+        </div>
+        <p class="calc-msg" id="calcMsg"></p>
+        <ul class="calc-tips" id="calcTips"></ul>
+        <div class="calc-rec" id="calcRec"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section class="section ingredients" id="ingredients">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">04 · The Science</p><h2>Four actives, <em>zero filler</em></h2></header>
+    <div class="grid g4 ing-grid">
+      <article class="card img-card tilt reveal" data-tilt><div class="thumb"><img src="assets/images/ingredient-hyaluronic-acid.webp" alt="Abstract water bubbles representing hyaluronic acid" loading="lazy" width="900" height="1100"></div><span class="ico sm"><svg><use href="#i-drop"/></svg></span><h3>Hyaluronic Acid</h3><p>Holds up to 1000× its weight in water for instant plumpness.</p></article>
+      <article class="card img-card tilt reveal" data-tilt><div class="thumb"><img src="assets/images/ingredient-ceramides.webp" alt="Stacked lipid bricks representing ceramides in the skin barrier" loading="lazy" width="900" height="1100"></div><span class="ico sm"><svg><use href="#i-shield"/></svg></span><h3>Ceramide NP</h3><p>The mortar between skin cells — locks hydration in, irritants out.</p></article>
+      <article class="card img-card tilt reveal" data-tilt><div class="thumb"><img src="assets/images/ingredient-squalane.webp" alt="Golden droplet of plant-derived squalane" loading="lazy" width="900" height="1100"></div><span class="ico sm"><svg><use href="#i-leaf"/></svg></span><h3>Squalane</h3><p>Featherlight, skin-identical emollient that softens without greasiness.</p></article>
+      <article class="card img-card tilt reveal" data-tilt><div class="thumb"><img src="assets/images/ingredient-niacinamide.webp" alt="Violet crystal facets representing niacinamide" loading="lazy" width="900" height="1100"></div><span class="ico sm"><svg><use href="#i-flask"/></svg></span><h3>Niacinamide</h3><p>Refines the look of pores and evens tone while strengthening the barrier.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- DERMATOLOGISTS -->
+<section class="section dark" id="dermatologists">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">05 · Dermatologist Reviews</p><h2>What the <em>experts</em> say</h2><p>Independent panel notes on formulation, tolerance and results.</p></header>
+    <div class="derm-grid" id="dermGrid"></div>
+    <div class="derm-tabs" id="dermTabs" role="tablist" aria-label="Select reviewer"></div>
+    <div class="grid g3 score-row">
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-heart"/></svg></span><h3>9.4 / 10</h3><p>Average tolerance score across sensitive-skin panel*</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-badge"/></svg></span><h3>100%</h3><p>Of formulas reviewed for non-comedogenic claims*</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-star"/></svg></span><h3>4.8 ★</h3><p>Average customer rating from verified buyers*</p></article>
+    </div>
+    <p class="fine center">*Sample content for design purposes — replace panel names, quotes and statistics with real, verified data before launch.</p>
+  </div>
+</section>
+
+<!-- AUTO REORDER -->
+<section class="section" id="reorder">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow">06 · Auto-Reorder</p><h2>Your skin's calendar, <em>on autopilot</em></h2><p>We calculate when your jar runs out, then ship the next one just in time. Skip, pause or cancel anytime.</p></header>
+    <div class="reorder">
+      <form class="glass reorder-form reveal" id="reorderForm" onsubmit="return false">
+        <label>Choose your moisturizer<select id="r-product"></select></label>
+        <label>Applications per day <output id="o-uses">2×</output><input type="range" id="r-uses" min="1" max="3" value="2"></label>
+        <label>Amount per use
+          <select id="r-amt"><option value="0.6">Pea-sized (light)</option><option value="0.9" selected>Standard</option><option value="1.3">Generous</option></select></label>
+        <div class="reorder-calc">
+          <div><span>Jar lasts about</span><b id="r-weeks">—</b></div>
+          <div><span>Ship every</span><b id="r-every">—</b></div>
+          <div><span>You save</span><b id="r-save">—</b></div>
+        </div>
+        <button class="btn btn-primary full" id="r-add">Start auto-reorder <svg><use href="#i-arrow"/></svg></button>
+      </form>
+      <div class="timeline glass reveal" id="timeline" aria-label="Upcoming shipments"></div>
+    </div>
+    <div class="grid g4 perks">
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-repeat"/></svg></span><h3>Smart cadence</h3><p>Interval is calculated from your usage — not a guess.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-truck"/></svg></span><h3>Free shipping</h3><p>Always free on subscription orders.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-check"/></svg></span><h3>Skip or pause</h3><p>Manage everything from your dashboard in one tap.</p></article>
+      <article class="card tilt reveal" data-tilt><span class="ico sm"><svg><use href="#i-star"/></svg></span><h3>15% off, forever</h3><p>Your subscriber price never expires.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / LAB -->
+<section class="section about">
+  <div class="wrap about-grid">
+    <div class="about-img tilt reveal" data-tilt data-tilt-max="8">
+      <div class="lab-card">
+        <div class="lab-bg"></div>
+        <div class="lab-bubbles"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="lab-header">
+          <span class="lab-badge"><svg><use href="#i-flask"/></svg> Formulation Lab</span>
+          <span class="lab-status">Batch #048 · Active</span>
+        </div>
+        <div class="lab-graphic">
+          <div class="vessel">
+            <div class="liquid"></div>
+            <div class="vessel-glow"></div>
+          </div>
+        </div>
+        <div class="lab-metrics">
+          <div>
+            <div class="metric-row"><span>Tri-Weight Hyaluronic</span><b>3.5%</b></div>
+            <div class="metric-bar"><div class="fill" style="width: 88%"></div></div>
+          </div>
+          <div>
+            <div class="metric-row"><span>Ceramide NP Matrix</span><b>2.0%</b></div>
+            <div class="metric-bar"><div class="fill" style="width: 75%"></div></div>
+          </div>
+          <div>
+            <div class="metric-row"><span>Squalane Lipid Emollient</span><b>5.0%</b></div>
+            <div class="metric-bar"><div class="fill" style="width: 94%"></div></div>
+          </div>
+        </div>
+        <div class="lab-footer">
+          <span class="ico"><svg><use href="#i-check"/></svg></span>
+          <div>
+            <b>Clinical Hydration Lock</b>
+            <small>48-Hour Barrier Protection</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-copy reveal">
+      <p class="eyebrow">Our story</p>
+      <h2>Formulated like medicine, <em>worn like silk.</em></h2>
+      <p>AQUAVEIL began with one question: why does most moisturizer feel great for an hour and fail by lunch? Our formulators spent three years layering humectants, ceramides and light occlusives until hydration lasted a full day without a trace of heaviness.</p>
+      <ul class="ticks"><li><svg><use href="#i-check"/></svg>Small-batch, airless packaging that protects actives</li><li><svg><use href="#i-check"/></svg>Fragrance-free, vegan, cruelty-free</li><li><svg><use href="#i-check"/></svg>Recyclable glass &amp; refill-ready jars</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <header class="sec-head reveal"><p class="eyebrow">FAQ</p><h2>Good questions, <em>clear answers</em></h2></header>
+    <div class="faq reveal">
+      <details open><summary>Will these moisturizers feel heavy on oily skin?</summary><p>No. Dewdrop Gel Cream and Veil Hyaluron Serum-Cream are water-based and oil-free in feel, built for oily and combination skin.</p></details>
+      <details><summary>Can I use them with retinol or acids?</summary><p>Yes. Apply your active first, wait a minute, then seal with Ceramide Calm Lotion or Cloud Barrier Cream to reduce irritation.</p></details>
+      <details><summary>How does auto-reorder work?</summary><p>You choose a moisturizer and how often you use it. We calculate when it will run out and schedule the next shipment a few days before. Skip, pause or cancel from your dashboard anytime.</p></details>
+      <details><summary>Are the products suitable for sensitive skin?</summary><p>All formulas are fragrance-free and free from common irritants. Ceramide Calm Lotion is designed specifically for reactive skin. Patch-test any new product.</p></details>
+      <details><summary>What is your return policy?</summary><p>If your skin doesn't love it, contact us within 30 days for a refund or exchange.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / NEWSLETTER -->
+<section class="section contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy reveal">
+      <p class="eyebrow">Contact &amp; Atelier</p>
+      <h2>Talk to a <em>skin concierge</em></h2>
+      <p>Not sure where to start? Visit our Studio Atelier or send a note and we'll reply within one business day.</p>
+      <ul class="contact-list">
+        <li><svg><use href="#i-mail"/></svg>hello@example.com</li>
+        <li><svg><use href="#i-phone"/></svg>+1 (555) 010-2030</li>
+        <li><svg><use href="#i-pin"/></svg>12 Hydra Lane, Studio 4, Your City</li>
+      </ul>
+      <p class="fine">Placeholder contact details — replace before launch.</p>
+    </div>
+    <form class="glass contact-form reveal" id="contactForm" novalidate>
+      <label>Name<input type="text" name="name" required autocomplete="name"></label>
+      <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <p class="form-msg" id="contactMsg" role="status"></p>
+      <button class="btn btn-primary full" type="submit">Send message <svg><use href="#i-arrow"/></svg></button>
+    </form>
+  </div>
+  <div class="wrap contact-map-wrap reveal">
+    <div class="map-card glass">
+      <div class="map-overlay-badge">
+        <span class="ico"><svg><use href="#i-pin"/></svg></span>
+        <div>
+          <b>AQUAVEIL Flagship Atelier</b>
+          <span>12 Hydra Lane, Studio 4 · Open Mon–Sat, 10am–7pm</span>
+        </div>
+      </div>
+      <iframe class="map-iframe" title="AQUAVEIL Flagship Location Map" src="https://maps.google.com/maps?q=San%20Francisco,%20CA&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <!-- FOOTER NEWSLETTER STRIP -->
+  <div class="wrap foot-newsletter-strip">
+    <div class="foot-news-copy">
+      <p class="eyebrow">Join the Ritual</p>
+      <h3>Skincare science in your inbox</h3>
+      <p>Subscribe for dermatologist notes, new formula drops, and 15% off your first order.</p>
+    </div>
+    <form class="foot-news-form" id="newsForm" novalidate>
+      <div class="news-input-group">
+        <input type="email" placeholder="Enter your email address..." aria-label="Email for newsletter" required>
+        <button type="submit" class="btn btn-primary sm">Subscribe <svg><use href="#i-arrow"/></svg></button>
+      </div>
+      <p class="form-msg" id="newsMsg" role="status"></p>
+    </form>
+  </div>
+
+  <div class="foot-divider wrap"></div>
+
+  <!-- MAIN FOOTER GRID -->
+  <div class="wrap foot-grid">
+    <div class="foot-brand-col">
+      <a href="#top" class="brand" aria-label="AQUAVEIL home">
+        <span class="brand-mark"><svg><use href="#i-drop"/></svg></span>
+        <span class="brand-name">AQUAVEIL<small>Hydration Atelier</small></span>
+      </a>
+      <p class="foot-desc">Face hydrating moisturizers, barrier science formulas, and automated skin rituals composed for your skin.</p>
+      <div class="foot-badges">
+        <span class="f-badge"><svg><use href="#i-shield"/></svg> Derm-Reviewed</span>
+        <span class="f-badge"><svg><use href="#i-leaf"/></svg> 100% Fragrance-Free</span>
+      </div>
+      <div class="foot-socials">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
+        <a href="https://x.com" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg><use href="#i-x-social"/></svg></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#i-youtube"/></svg></a>
+      </div>
+    </div>
+
+    <div class="foot-col">
+      <h4>Collection</h4>
+      <a href="#shop">Dewdrop Gel Cream</a>
+      <a href="#shop">Cloud Barrier Cream</a>
+      <a href="#shop">Veil Hyaluron Serum</a>
+      <a href="#shop">Midnight Recovery Balm</a>
+      <a href="#shop">Mineral SPF 50 Fluid</a>
+      <a href="#shop">Ceramide Calm Lotion</a>
+    </div>
+
+    <div class="foot-col">
+      <h4>Experience</h4>
+      <a href="#routine">Routine Builder</a>
+      <a href="#calculator">Hydration Lab</a>
+      <a href="#dermatologists">Dermatologist Panel</a>
+      <a href="#reorder">Auto-Reorder Program</a>
+      <a href="#contact">Flagship Atelier</a>
+    </div>
+
+    <div class="foot-col">
+      <h4>Support &amp; Legal</h4>
+      <a href="#faq">Frequently Asked Questions</a>
+      <a href="#contact">Contact Concierge</a>
+      <a href="#" data-open="privacy">Privacy Policy</a>
+      <a href="#" data-open="privacy">Terms of Service</a>
+      <a href="#" data-open="privacy">Shipping &amp; Returns</a>
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="foot-bottom wrap">
+    <p class="copy">© <span id="year">2026</span> AQUAVEIL Hydration Atelier. All rights reserved.</p>
+    <div class="foot-pay-icons">
+      <span>Visa</span>
+      <span>Mastercard</span>
+      <span>Amex</span>
+      <span>Apple Pay</span>
+      <span>Shop Pay</span>
+    </div>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+  <header><h3>Your bag</h3><button class="btn-icon" data-close aria-label="Close"><svg><use href="#i-x"/></svg></button></header>
+  <div class="drawer-body" id="cartBody"></div>
+  <footer id="cartFoot"></footer>
+</aside>
+
+<!-- LOGIN MODAL -->
+<div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle" aria-hidden="true">
+  <div class="modal-box glass">
+    <button class="btn-icon modal-x" data-close aria-label="Close"><svg><use href="#i-x"/></svg></button>
+    <span class="ico"><svg><use href="#i-user"/></svg></span>
+    <h3 id="loginTitle">Welcome back</h3>
+    <p class="sub" id="loginSub">Sign in to manage your routine and auto-reorders.</p>
+    <form id="loginForm" novalidate>
+      <label class="hide" id="nameRow">Name<input type="text" id="l-name" autocomplete="name"></label>
+      <label>Email<input type="email" id="l-email" required autocomplete="email"></label>
+      <label>Password<input type="password" id="l-pass" required minlength="6" autocomplete="current-password"></label>
+      <p class="form-msg" id="loginMsg" role="alert"></p>
+      <button class="btn btn-primary full" type="submit" id="loginBtn">Sign in</button>
+    </form>
+    <p class="switch">New here? <button type="button" id="switchMode">Create an account</button></p>
+    <p class="fine">Demo login: data is stored only in this browser.</p>
+  </div>
+</div>
+
+<!-- PRIVACY MODAL -->
+<div class="modal" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privTitle" aria-hidden="true">
+  <div class="modal-box glass wide">
+    <button class="btn-icon modal-x" data-close aria-label="Close"><svg><use href="#i-x"/></svg></button>
+    <h3 id="privTitle">Privacy Policy</h3>
+    <div class="legal">
+      <p><b>What we collect.</b> Name, email, shipping details and skin preferences you choose to share, used to fulfil orders, run auto-reorder and personalise your routine.</p>
+      <p><b>How we use it.</b> We never sell your data. We share it only with payment, shipping and email partners strictly needed to serve you.</p>
+      <p><b>Your choices.</b> You can access, correct or delete your data at any time by contacting us. You can unsubscribe from emails with one click.</p>
+      <p><b>Cookies &amp; storage.</b> We use local storage for your bag, preferences and demo account.</p>
+      <p class="fine">Template text — have it reviewed by a legal professional before launch.</p>
+    </div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<section class="dashboard" id="dashboard" aria-hidden="true" aria-label="Customer dashboard">
+  <header class="dash-top">
+    <a href="#top" class="brand" data-close-dash><span class="brand-mark"><svg><use href="#i-drop"/></svg></span><span class="brand-name">AQUAVEIL<small>My dashboard</small></span></a>
+    <div><button class="btn btn-ghost sm" data-close-dash>Back to store</button> <button class="btn btn-primary sm" id="logoutBtn">Sign out</button></div>
+  </header>
+  <div class="wrap dash-body">
+    <h2 id="dashHello">Hello</h2>
+    <div class="grid g3 dash-stats" id="dashStats"></div>
+    <div class="dash-cols">
+      <div class="glass dash-card"><h3>Auto-reorders</h3><div id="dashSubs"></div></div>
+      <div class="glass dash-card"><h3>My routine</h3><div id="dashRoutine"></div></div>
+    </div>
+    <div class="glass dash-card"><h3>Order history</h3><div id="dashOrders"></div></div>
+  </div>
+</section>
+
+<button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+  <svg viewBox="0 0 24 24"><path d="M12 19V5m-7 7 7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
